@@ -299,6 +299,337 @@
 
 ---
 
+## 🧠 Personal Knowledge Management (PKM) — Open Source First + Generous SaaS
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Obsidian** | Proprietary (free personal) | Win/Mac/Linux/Android/iOS | Local Markdown, graph, canvas, plugins | **Best overall PKM**, 1000+ plugins, canvas, infinite extensibility, free for personal use |
+| **Logseq** | AGPL-3.0 | Win/Mac/Linux/Android/iOS | Outliner, bidirectional links, whiteboard | **Open source, local-first**, daily journals, flashcards, query engine, plugins |
+| **Joplin** | MIT | Win/Mac/Linux/Android/iOS/CLI | E2EE Markdown, sync (Nextcloud/WebDAV/S3) | **Fully open source**, E2EE, 100+ plugins, OCR, Kanban, Gantt, diagram support |
+| **Trilium Notes** | AGPL-3.0 | Win/Mac/Linux/Web/Docker | Hierarchical, rich text, E2EE sync, scriptable | **Power user choice**, note hierarchy, attributes, relations, scripts, fast search |
+| **AppFlowy** | AGPL-3.0 | Win/Mac/Linux/iOS/Android/Web | Notion alternative, blocks, local-first | **Open source Notion clone**, Rust/Flutter, collaborative, self-hostable, offline-first |
+| **SiYuan** | AGPL-3.0 | Win/Mac/Linux/Android/iOS/Web | Block-based, bidirectional, SQL storage | **High-performance**, block-level granularity, SQL backend, P2P sync, Docker deploy |
+| **Affine** | AGPL-3.0 | Win/Mac/Linux/Web/iOS/Android | Notion + Miro hybrid, blocks + canvas | **Page + edgeless mode**, Rust/TypeScript, local-first, self-hostable, collaborative |
+| **RemNote** | Proprietary (free tier) | Win/Mac/Linux/Web/iOS/Android | Spaced repetition + outliner, PDF annotation | **Flashcards built-in**, PDF reader, hierarchical notes, generous free tier |
+| **Heptabase** | Proprietary (free tier) | Win/Mac/Web | Visual cards, whiteboard, bidirectional links | **Spatial thinking**, card-based, whiteboard, research workflow, free tier available |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Notion (Free)** | Unlimited blocks/pages, 7-day history, 10 guests | Teams <10, all-in-one workspace, great templates |
+| **Obsidian Sync** | Paid ($4/mo) — but **free via Syncthing/Git** | Zero-cost sync across devices |
+| **Logseq Sync** | Paid — but **free via Syncthing/Git** | Zero-cost sync across devices |
+| **Capacities** | Free tier: 1000 objects, basic features | Object-based PKM, daily notes, calendar view |
+| **Tana** | Free tier (waitlist) — supertags, live search | Supertags, voice memos, daily page, PKM for builders |
+
+> **Pro tip:** **Maximum freedom:** Obsidian + Syncthing (zero cost, full control, plugins). **Open source purist:** Logseq or Joplin (E2EE, local-first). **Notion-like:** AppFlowy or Affine (blocks + canvas). **Research-heavy:** Heptabase (visual) or SiYuan (performance). **Flashcards built-in:** RemNote. **Mobile-first:** Joplin or Logseq (great Android apps on F-Droid).
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid*
+
+---
+
+## 💰 Personal Finance (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Firefly III** | AGPL-3.0 | Web/Docker/Win/Mac/Linux | Double-entry, self-hosted, multi-currency | **Best self-hosted finance**, rules, budgets, recurring, tags, links, API, Docker deploy |
+| **Actual Budget** | MIT | Web/Win/Mac/Linux/Android/iOS | Local-first, envelope budgeting, sync | **YNAB alternative**, zero-based budgeting, local-first, optional sync server, F-Droid app |
+| **Skrooge** | GPL-2.0 | Win/Mac/Linux | KDE, double-entry, reports, forecasts | **Feature-complete**, OFX/QIF/CSV import, scheduled transactions, charts, plugins |
+| **GnuCash** | GPL-2.0 | Win/Mac/Linux | Double-entry, professional accounting | **Industry standard**, Scheduled transactions, reports, OFX, small business features |
+| **Money Manager Ex** | GPL-2.0 | Win/Mac/Linux/Android | Cross-platform, simple, reports | **Lightweight**, recurring, budgets, attachments, multiple databases |
+| **HomeBank** | GPL-2.0 | Win/Mac/Linux | Personal accounting, charts, budgets | **Simple but powerful**, OFX/QIF, categories, assignments, reports |
+| **Buckets** | Proprietary (free trial) | Win/Mac/Linux | Envelope budgeting, zero-based | **Visual budgeting**, beautiful UI, local files, no cloud required |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Monarch Money** | No free tier ($14.99/mo or $99/yr) | Best modern UI, Plaid sync, couples |
+| **YNAB** | 34-day free trial, then $14.99/mo | Best zero-based budgeting methodology |
+| **PocketSmith** | Free tier: 12 accounts, 2 budgets, manual import | Calendar forecasting, scenario planning |
+| **MoneyHub** | £0.99/mo or £9.99/yr | UK-focused, open banking, net worth |
+| **Fina** | Free tier: 10 accounts, manual entry | Notion-like, flexible, formulas, templates |
+
+> **Pro tip:** **Self-hosted king:** Firefly III (Docker, double-entry, rules, API). **Envelope budgeting:** Actual Budget (local-first, F-Droid app, optional sync). **KDE/Linux native:** Skrooge. **Professional accounting:** GnuCash. **Simple & cross-platform:** Money Manager Ex. **Zero cloud:** All above run fully offline — your financial data never leaves your machine.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid*
+
+---
+
+## 🎬 Personal Media Server (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Jellyfin** | GPL-3.0 | Web/Docker/Win/Mac/Linux/Android/iOS/TV | **Plex/Emby alternative**, 100% free, no premium | **No feature gates**, hardware transcode, Live TV, DVR, music, photos, clients everywhere |
+| **Navidrome** | GPL-3.0 | Web/Docker/Win/Mac/Linux/Android/iOS | Lightweight music server, Subsonic API | **Single binary**, low resource, Subsonic-compatible clients (Symfonium, Ultrasonic, DSub) |
+| **Audiobookshelf** | AGPL-3.0 | Web/Docker/Win/Mac/Linux/Android/iOS | Audiobooks + podcasts, self-hosted | **Plex for audiobooks**, OpenAudible import, CarPlay/Android Auto, Whisper sync |
+| **Immich** | AGPL-3.0 | Web/Docker/Android/iOS | Google Photos alternative, ML tagging | **50k+ stars**, face recognition, partner sharing, timeline/map, F-Droid mobile app |
+| **LibrePhotos** | AGPL-3.0 | Web/Docker | Google Photos alternative, AI tagging | **Self-hosted photos**, face recognition, map/timeline, EXIF, mobile apps |
+| **PhotoPrism** | AGPL-3.0 | Web/Docker/Win/Mac/Linux | AI-powered photo management, RAW | **Browsable by location/timeline/people**, Docker deploy, TensorFlow AI |
+| **Koel** | AGPL-3.0 | Web/Docker | Personal music streaming, single-user | **Beautiful UI**, Laravel/Vue, Last.fm scrobble, smart playlists, PWA |
+| **Gonic** | GPL-3.0 | Web/Docker/Win/Mac/Linux | Lightweight music, Subsonic API | **Go single binary**, minimal deps, Subsonic, transcoding, multi-user |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Plex** | Free tier (limited), Plex Pass $5/mo for hardware transcode, DVR | Easiest setup, best client apps, Live TV |
+| **Emby** | Free tier, Premiere $4.99/mo for hardware transcode, DVR | Similar to Plex, more open |
+| **Tidal / Qobuz / Apple Music** | No free tier ($10-15/mo) | Lossless/high-res streaming, massive catalogs |
+
+> **Pro tip:** **Video king:** Jellyfin (100% free, no premium tier, hardware transcode, all clients free). **Music:** Navidrome (tiny, Subsonic API, great Android clients like Symfonium). **Audiobooks:** Audiobookshelf (purpose-built, CarPlay, Whisper sync). **Photos:** Immich (50k+ stars, F-Droid app, ML features) or PhotoPrism (AI, RAW). **All-in-one:** Jellyfin + Navidrome + Audiobookshelf + Immich on a $10-20 VPS or home server.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
+---
+
+## ⚡ Personal Automation (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop (Lead)
+
+| Tool | License | Type | Why It's Arbitrage |
+|------|---------|------|-------------------|
+| **n8n** | Sustainable Use License | Visual workflow automation, 400+ integrations | **Best self-hosted n8n**, visual editor, self-hosted free, 400+ nodes, webhooks, OAuth, custom code |
+| **Huginn** | MIT | Agent-based automation, event-driven | **Agents that watch & act**, website monitoring, APIs, email, weather, custom agents, Rails |
+| **Activepieces** | MIT | No-code automation, 100+ pieces | **Open source Zapier alternative**, visual builder, self-hosted, webhooks, branching, loops |
+| **Windmill** | AGPL-3.0 | Developer-first automation, scripts + flows | **Code-first**, TypeScript/Python/Go/Deno, UI from scripts, GitHub sync, self-hosted |
+| **Automatisch** | AGPL-3.0 | Visual workflow, 100+ integrations | **Open source Zapier/Make**, self-hosted, simple UI, webhooks, scheduling |
+| **Node-RED** | Apache-2.0 | Flow-based, IoT-focused, browser editor | **Visual wiring**, palette of nodes, MQTT, Home Assistant, industrial, Raspberry Pi |
+| **Homer** | MIT | Dashboard + simple automation | **YAML config**, service discovery, not a full automation engine but great for homelab |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Zapier** | **100 tasks/mo free**, 5 Zaps, 15-min interval | Easiest for non-devs, 6000+ apps |
+| **Make (Integromat)** | **1,000 ops/mo free**, unlimited scenarios | Visual, powerful, 1500+ apps |
+| **n8n Cloud** | **Free tier**: 5K executions/mo, 1 user | Managed n8n, zero ops |
+| **Pipedream** | **Free tier**: 100 credits/day (~10K invocations/mo) | Developer-first, code + no-code, HTTP/SSE |
+| **IFTTT** | **Free tier**: 2 custom Applets, unlimited standard | Simple, mobile triggers, 800+ services |
+
+> **Pro tip:** **Visual + powerful:** n8n self-hosted (400+ nodes, free forever, Docker deploy). **Code-first devs:** Windmill (TypeScript/Python, GitHub sync, UI from code). **Simple Zapier alt:** Activepieces or Automatisch. **IoT/Home Assistant:** Node-RED. **Event-driven agents:** Huginn. **Cloud-free:** All self-hosted options run on a $5 VPS or home server — zero per-task costs.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, self-hosted communities*
+
+---
+
+## 🌐 Personal VPN / Network (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Type | Why It's Arbitrage |
+|------|---------|------|-------------------|
+| **Tailscale** | BSD-3 (client) / Proprietary (coord) | WireGuard mesh, NAT traversal, ACLs | **Magic DNS**, subnet routers, exit nodes, Funnel/Serve, free for personal (100 devices) |
+| **Headscale** | BSD-3 | **Self-hosted Tailscale control plane** | **Run your own coordination server**, no Tailscale account needed, OIDC/SAML, ACLs |
+| **WireGuard** | GPL-2.0 | Kernel VPN protocol, minimal, fast | **Built into Linux kernel**, 4K lines of code, audit-friendly, basis for all above |
+| **NetBird** | AGPL-3.0 | WireGuard mesh, self-hosted, SSO | **Open source Tailscale alternative**, management UI, peer-to-peer, DNS, routing |
+| **Nebula** | MIT | Overlay network, mutual auth, firewalls | **Defined by certs**, lighthouse discovery, groups, firewall, used at Slack/Scale |
+| **ZeroTier** | BSL-1.1 (client) / Proprietary (coord) | Virtual Ethernet, SD-WAN, managed | **Easy setup**, bridge mode, flow rules, free for 25 devices, self-hosted Moon |
+| **OpenVPN** | GPL-2.0 | Classic SSL/TLS VPN, mature | **Battle-tested**, TCP/UDP, TLS auth, hardware acceleration, many clients |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Tailscale (Personal)** | **Free: 100 devices, 3 users, Magic DNS, Funnel, Serve** | **Best personal free tier**, zero config, exit nodes |
+| **Twingate** | **Free: 5 users, 5 resources, 10 connectors** | Zero-trust network access, SSO |
+| **Cloudflare WARP** | **Free: unlimited, 1.1.1.1 DNS** | Privacy, not a full mesh VPN |
+| **Mullvad VPN** | **€5/mo flat** (no free tier) | Best privacy, no account, cash/crypto |
+| **Proton VPN** | **Free: 3 countries, 1 device, no logs** | Swiss, no-logs, kill switch |
+
+> **Pro tip:** **Zero-config mesh:** Tailscale Personal (free 100 devices, Magic DNS, exit nodes). **Full self-host:** Headscale (your own Tailscale control plane) or NetBird (open source, UI, SSO). **DIY WireGuard:** wg-quick + systemd or NetworkManager. **Corporate/advanced:** Nebula (cert-based, firewall, groups). **Privacy-first paid:** Mullvad (€5/mo, no account, cash).
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, self-hosted communities*
+
+---
+
+## 💾 Personal Backup (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / CLI (Lead)
+
+| Tool | License | Type | Why It's Arbitrage |
+|------|---------|------|-------------------|
+| **Restic** | BSD-3 | Encrypted, deduplicated, incremental, repo-based | **Gold standard**, S3/B2/GCS/Rclone backends, mount, policies, append-only, 20k+ stars |
+| **BorgBackup** | BSD-3 | Deduplicated, compressed, encrypted, mountable | **Mature**, FUSE mount, compression (lz4/zstd), repositories, 10k+ stars |
+| **Kopia** | Apache-2.0 | Modern, policy-driven, Web UI, cross-platform | **Policy-based**, content-addressable, S3/B2/Azure/GCS, Web UI, maintenance, 10k+ stars |
+| **Rclone** | MIT | Sync to/from 70+ cloud providers, crypt | **Swiss Army knife**, mount, serve, bisync, crypt layer, VFS, 50k+ stars |
+| **Duplicati** | LGPL-2.1 | AES-256, incremental, scheduler, Web UI | **GUI + CLI**, strong encryption, retention, works with any backend, 10k+ stars |
+| **UrBackup** | AGPL-3.0 | Client/server, image + file backup, Web UI | **System imaging**, bare-metal restore, cross-platform, deduplication, 5k+ stars |
+| **Syncthing** | MPL-2.0 | P2P sync, no cloud, versioning, ignore patterns | **Not backup per se**, but real-time sync, 60k+ stars, set-and-forget |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Backblaze B2** | **10 GB free**, then $6/TB/mo | Cheapest hot storage, S3-compatible, Restic/Kopia/Rclone native |
+| **Cloudflare R2** | **10 GB free**, then $0.015/GB/mo | Zero egress fees, S3-compatible, great with Cloudflare ecosystem |
+| **Wasabi** | **1 TB free trial (30 days)**, then $6.99/TB/mo | No egress, no API fees, single region |
+| **Storj** | **25 GB free** (decentralized) | S3-compatible, distributed, encrypted |
+| **Google Drive / OneDrive / Dropbox** | 15 GB / 5 GB / 2 GB free | Consumer sync, not ideal for backup (no versioning control) |
+
+> **Pro tip:** **Best all-rounder:** Restic + Rclone → Backblaze B2 / Cloudflare R2 (10 GB free each, cheap after). **Policy-driven + Web UI:** Kopia (modern, maintenance built-in). **Classic + mountable:** BorgBackup (mature, FUSE mount). **System imaging:** UrBackup (bare-metal restore). **Real-time sync:** Syncthing (not backup, but great complement). **3-2-1 rule:** Local (Restic to USB) + Remote (Restic to B2/R2) + Offsite (Syncthing to friend's server).
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, backup communities*
+
+---
+
+## 🔐 Personal Password Manager (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Bitwarden** | AGPL-3.0 (client) / Proprietary (server) | All platforms, browser, CLI | Cloud or self-hosted (Vaultwarden), passkeys | **Best overall**, unlimited devices, breach monitoring, passkeys, send, CLI |
+| **Vaultwarden** | AGPL-3.0 | Docker, self-hosted Bitwarden server | **Rust rewrite**, 10x lighter, all Bitwarden features | **Self-host Bitwarden on $5 VPS**, SQLite/MySQL/Postgres, WebSocket, admin panel |
+| **KeePassXC** | GPL-3.0 | Win/Mac/Linux/AppImage/Flatpak | Local KeePass 2.x DB, browser integration | **Fully offline**, YubiKey, TOTP, SSH agent, browser extension (KeePassXC-Browser) |
+| **KeePassDX** | GPL-3.0 | Android (F-Droid/Play) | Material Design, biometric, KeePass DB | **Best Android KeePass**, autofill, NFC, YubiKey, F-Droid |
+| **Strongbox** | Proprietary (free tier) | iOS/Mac | KeePass DB, FaceID, Apple Watch | **Best iOS/macOS KeePass**, iCloud sync, strong crypto, free tier |
+| **Pass / gopass** | GPL-3.0 | CLI, Win/Mac/Linux | Unix philosophy, GPG encrypt, git sync | **Standard on Linux**, `pass` + `gopass` (multi-recipient, teams), dmenu/rofi |
+| **Buttercup** | GPL-3.0 | Win/Mac/Linux/Android/iOS/Web | Encrypted archive, delta sync, groups | **Cross-platform**, simple, WebDAV/ownCloud/Dropbox sync |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Bitwarden Cloud** | **Free: unlimited vaults, devices, passkeys, breach monitoring** | **Best free cloud tier**, zero cost, all features |
+| **1Password** | No free tier ($2.99/mo personal) | Best UX, Watchtower, travel mode, SSH keys |
+| **Proton Pass** | **Free: unlimited logins, 10 aliases (SimpleLogin), passkeys** | Proton ecosystem, E2EE, aliases |
+| **NordPass** | **Free: 1 device, 30-day history** | Basic features, breach scanner |
+| **Dashlane** | **Free: 1 device, 50 passwords** | Limited, auto-fill, VPN (premium) |
+
+> **Pro tip:** **Cloud free:** Bitwarden Cloud (unlimited everything free) or Proton Pass (aliases included). **Self-host:** Vaultwarden (Rust, lightweight, all Bitwarden features) on $4-5 VPS. **Offline/local:** KeePassXC (desktop) + KeePassDX (Android F-Droid) + Strongbox (iOS) — same `.kdbx` file synced via Syncthing. **CLI/Unix:** `pass` / `gopass` with GPG + git. **Zero cost, full control:** Vaultwarden + KeePassXC + Syncthing.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, privacy communities*
+
+---
+
+## 📝 Personal Notes / Journal (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Obsidian** | Proprietary (free personal) | Win/Mac/Linux/Android/iOS | Local Markdown, graph, canvas, plugins | **Daily notes + journal**, calendar plugin, periodic notes, templates, 1000+ plugins |
+| **Logseq** | AGPL-3.0 | Win/Mac/Linux/Android/iOS | Outliner, daily journals, bidirectional links | **Journal-first**, daily pages, queries, flashcards, whiteboard, plugins, F-Droid |
+| **Joplin** | MIT | Win/Mac/Linux/Android/iOS/CLI | E2EE Markdown, notebooks, tags, sync | **Notebooks + tags**, E2EE, OCR, diagrams, Kanban, Gantt, Web Clipper, F-Droid |
+| **Trilium Notes** | AGPL-3.0 | Win/Mac/Linux/Web/Docker | Hierarchical, rich text, attributes, scripts | **Note hierarchy**, relations, fast search, scripting, E2EE sync, Docker deploy |
+| **SiYuan** | AGPL-3.0 | Win/Mac/Linux/Android/iOS/Web | Block-based, SQL storage, P2P sync | **Block granularity**, SQL backend, P2P sync, Docker, high performance |
+| **Affine** | AGPL-3.0 | Win/Mac/Linux/Web/iOS/Android | Page + edgeless (canvas), blocks | **Notion + Miro**, local-first, collaborative, self-hostable, blocks + whiteboard |
+| **Diary / Journey / Day One** | Proprietary (freemium) | Android/iOS/Mac/Win | Dedicated journaling, prompts, media | **Purpose-built**, prompts, weather, location, photos, export |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Notion (Free)** | Unlimited blocks/pages, 7-day history, 10 guests | All-in-one, templates, databases, teams <10 |
+| **Reflect** | 14-day trial, then $10/mo | Networked thought, daily notes, backlinks |
+| **Amplenote** | Free tier: 100 notes, basic features | Tasks + notes, bidirectional links, calendar |
+| **Standard Notes** | Free: unlimited notes, 100 MB, Extensions (paid) | E2EE, longevity focus, extensible |
+| **Day One** | Free: 1 journal, 1 device, basic features | Best dedicated journaling app, media, prompts |
+
+> **Pro tip:** **Daily journal + PKM:** Logseq (journal-first, open source, F-Droid) or Obsidian (plugins, canvas, free personal). **Notebooks + E2EE:** Joplin (notebooks, tags, E2EE, F-Droid, sync anywhere). **Hierarchy + scripts:** Trilium Notes. **Blocks + canvas:** Affine or SiYuan. **Dedicated journaling:** Day One (best UX) or Journey. **Zero cloud:** All open source options + Syncthing = full sync, zero cost.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid*
+
+---
+
+## 📰 Personal RSS / Read Later (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **FreshRSS** | AGPL-3.0 | Web/Docker/Android (F-Droid)/iOS | Self-hosted RSS/Atom/JSON reader | **Lightweight**, PHP/SQLite/Postgres, OPML, filters, tags, API, themes, F-Droid app |
+| **Miniflux** | Apache-2.0 | Web/Docker/Android (F-Droid)/iOS | Minimalist, Go, single binary | **Tiny**, fast, Fever/Pinboard/Wallabag API, keyboard shortcuts, OPML, F-Droid app |
+| **Wallabag** | MIT | Web/Docker/Android (F-Droid)/iOS | Read-later, save pages, annotate | **Pocket/Instapaper alternative**, annotations, tags, export, TTS, F-Droid app |
+| **Omnivore** | AGPL-3.0 | Web/Docker/Android/iOS | Read-later + newsletter, highlight, export | **Modern**, newsletter email, highlights, Logseq/Obsidian/Readwise sync, F-Droid |
+| **Feedpushr** | MIT | Web/Docker | Feed aggregator, webhook forwarding | **Headless**, transforms feeds, forwards to MQTT/HTTP/Kafka, minimal UI |
+| **Stringer** | MIT | Web/Heroku/Docker | Simple, self-hosted, Fever API | **Minimal**, single-user, keyboard nav, Fever API for clients |
+| **RSSHub** | MIT | Web/Docker | Generate RSS from anything (Twitter, YouTube, etc.) | **Not a reader**, but creates feeds from 1000+ sites, deploy with your reader |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Feedly** | **Free: 100 sources, 3 feeds, Leo AI (limited)** | Best UX, Leo AI, boards, newsletters |
+| **Inoreader** | **Free: 150 subscriptions, ads** | Power user, rules, automation, API |
+| **NewsBlur** | **Free: 64 sites, 10 stories/feed** | Original, training, intelligence, social |
+| **Readwise** | No free tier ($4.49/mo or $7.99/mo) | Highlights sync → Obsidian/Logseq/Notion/Roam |
+| **Matter** | Free tier available | Highlights, TTS, newsletter, Obsidian sync |
+| **Pocket** | Free: unlimited saves, ads, premium for search | Mozilla-owned, TTS, tags, offline |
+
+> **Pro tip:** **Self-hosted reader:** FreshRSS (feature-rich, F-Droid app) or Miniflux (tiny, fast, Go). **Read-later:** Wallabag (mature, annotations, F-Droid) or Omnivore (modern, highlights, newsletter, Obsidian/Logseq sync). **Feed generation:** RSSHub (run alongside your reader). **Zero cost:** FreshRSS + Wallabag + RSSHub on a $5 VPS = complete RSS/read-later stack.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
+---
+
+## 📅 Personal Calendar / Contacts (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Radicale** | GPL-3.0 | Web/Docker/Win/Mac/Linux | CalDAV/CardDAV server, simple, lightweight | **Python**, single file config, htpasswd/IMAP auth, rights management, 3k+ stars |
+| **Baïkal** | GPL-3.0 | Web/Docker/Win/Mac/Linux | CalDAV/CardDAV, PHP, MySQL/SQLite/Postgres | **Lightweight**, SabreDAV, admin UI, PHP 8+, 2k+ stars |
+| **Nextcloud** | AGPL-3.0 | Web/Docker/Win/Mac/Linux/Android/iOS | Full groupware (Cal, Contacts, Files, Talk, Deck) | **All-in-one**, CalDAV/CardDAV, apps ecosystem, 25k+ stars |
+| **EteSync** | AGPL-3.0 | Web/Docker/Android/iOS | E2EE CalDAV/CardDAV, journal | **Zero-knowledge**, encrypted contacts/calendar, F-Droid app, self-hosted |
+| **Davical** | GPL-2.0 | Web/Docker/Linux | PostgreSQL-backed, standards-compliant | **Mature**, PostgreSQL, ACLs, delegation, RFC 4791/6352/6764 |
+| **SabreDAV** | BSD-3 | PHP library | Build your own CalDAV/CardDAV server | **Foundation** for Baïkal, Nextcloud, others |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Proton Calendar** | **Free: 1 calendar, 1 GB (shared with Mail)** | E2EE, Swiss, integrated with Proton Mail |
+| **Tuta (Tutanota) Calendar** | **Free: 1 calendar, 1 GB** | E2EE, German, integrated with Tuta Mail |
+| **Fastmail** | 30-day trial, then $5/mo (30 GB) | Best UX, CalDAV/CardDAV, masks, rules |
+| **Google Calendar / Contacts** | Free (data mining) | Ubiquitous, best integration, not private |
+| **iCloud Calendar / Contacts** | Free with Apple ID (5 GB shared) | Apple ecosystem, CalDAV/CardDAV support |
+
+> **Pro tip:** **Minimal self-host:** Radicale (Python, tiny, htpasswd auth) or Baïkal (PHP, SabreDAV, admin UI). **Full groupware:** Nextcloud (Cal + Contacts + Files + Talk + Deck). **E2EE:** EteSync (zero-knowledge, F-Droid app). **Clients:** All above work with system calendar/contacts apps (GNOME Calendar, KOrganizer, Thunderbird, DAVx⁵ on Android F-Droid). **DAVx⁵** (F-Droid) is the best Android sync adapter for any CalDAV/CardDAV server.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
+---
+
+## ☁️ Personal File Sync (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Platform | Type | Why It's Arbitrage |
+|------|---------|----------|------|-------------------|
+| **Syncthing** | MPL-2.0 | Win/Mac/Linux/Android/iOS/BSD/Solaris | P2P, no cloud, device-to-device, versioning | **Gold standard**, 60k+ stars, set-and-forget, ignore patterns, relay servers, F-Droid |
+| **Nextcloud** | AGPL-3.0 | Web/Docker/Win/Mac/Linux/Android/iOS | Full groupware, WebDAV, apps, E2EE (optional) | **Dropbox/Google Drive alternative**, 25k+ stars, Files, Cal, Contacts, Talk, Deck |
+| **Seafile** | AGPL-3.0 (Community) / Proprietary (Pro) | Web/Docker/Win/Mac/Linux/Android/iOS | File sync + libraries, deduplication, WebDAV | **Fast**, block-level sync, libraries, wiki, Wiki.js integration, 12k+ stars |
+| **Pydio Cells** | AGPL-3.0 (Community) / Proprietary (Enterprise) | Web/Docker/Win/Mac/Linux/Android/iOS | Enterprise file platform, S3 gateway, workflows | **Modern Go**, S3 API, Cells Sync client, workflows, 2k+ stars |
+| **OwnCloud** | AGPL-3.0 (Community) / Proprietary (Enterprise) | Web/Docker/Win/Mac/Linux/Android/iOS | File sync + shares, marketplace, federation | **Original Nextcloud fork**, infinite scale, marketplace apps, 5k+ stars |
+| **FileBrowser** | MIT | Web/Docker/Win/Mac/Linux | Single binary, S3/local, WebDAV, share links | **Tiny**, no DB, simple auth, dark mode, 15k+ stars |
+| **Rclone + Rclone Mount** | MIT | CLI, all platforms | Mount any cloud as local drive, VFS cache | **Not sync per se**, but mount Google Drive/S3/B2/R2 as local FS, VFS cache |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **MEGA** | **20 GB free** (up to 35 GB via achievements) | Zero-knowledge, CLI, browser, EU-hosted |
+| **pCloud** | **10 GB free** (+10 GB referrals) | Lifetime plans, media streaming, Crypto (paid E2EE) |
+| **Proton Drive** | **5 GB free** (500 GB + VPN + Mail + Pass + Cal for $9.99/mo Unlimited) | Swiss, E2EE, integrated ecosystem |
+| **Sync.com** | **5 GB free** (+1 GB/referral) | Zero-knowledge, Canadian, great sharing |
+| **Google Drive / OneDrive / Dropbox / iCloud** | 15 GB / 5 GB / 2 GB / 5 GB free | Integration, collaboration, not private |
+
+> **Pro tip:** **Zero cloud, P2P:** Syncthing (60k+ stars, F-Droid, set-and-forget, versioning). **Self-hosted Dropbox:** Nextcloud (full groupware) or Seafile (faster, block-level, libraries). **Minimal WebDAV:** FileBrowser (single binary, S3/local). **Cloud storage + sync:** MEGA (20 GB E2EE) + pCloud (10 GB media) + Proton Drive (5 GB docs) = 35 GB free. **Mount cloud locally:** Rclone mount (Google Drive/S3/B2/R2 as local FS with VFS cache).
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
+---
+
 ## 📱 Android (F-Droid) — Best Open Source Apps 2024/2025
 
 | Category | App | Description | F-Droid | GitHub Stars |
