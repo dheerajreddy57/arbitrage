@@ -126,6 +126,42 @@
 
 ---
 
+## 🏠 Self-Hosted Dashboards (Free, Open Source, No Feature Gates)
+
+| Tool | License | Key Features | Best For |
+|------|---------|--------------|----------|
+| **Homarr** | Apache 2.0 | Drag-and-drop UI, live service integrations (Sonarr, Radarr, Plex, qBittorrent), built-in auth (OIDC/LDAP), 11K+ icons, Kubernetes support | Users who want visual editor, no YAML, rich integrations |
+| **Dashy** | MIT | Visual editor, widgets, status checks, themes, multi-language, cloud backup/sync, alternate views, search/shortcuts | Feature-rich, customizable, privacy-focused |
+| **Homepage** | GPL-3.0 | YAML/Docker label config, 100+ service widgets, Docker service discovery, static, fast | Config-as-code, declarative, container-native |
+| **Homer** | MIT | YAML config, lightweight, static HTML/JS, minimal dependencies | Simplicity, speed, tiny footprint |
+| **Glance** | AGPL-3.0 | Single Go binary, tens of MB RAM, info-focused widgets (not just launcher), YAML config | Glanceable info page, minimal resources |
+| **Flame** | MIT | Minimal bookmark/app launcher, built-in editor, no external deps | Simplest possible launcher, nothing else |
+| **Heimdall** | MIT | Clean UI, app categorization, search, Docker auto-discovery | Minimal but polished |
+
+> **All are completely free & open source** — you provide the hardware (Docker, ~256 MB RAM typical), zero paywalls. Run on a $4/mo VPS or old laptop/RPi.
+
+---
+
+## 📧 Custom Domain Email Hosting (Generous Free Tiers)
+
+| Provider | Free Tier | Catches | Best For |
+|----------|-----------|---------|----------|
+| **Zoho Mail** | **5 users, 5 GB each, 1 custom domain**, ad-free webmail & mobile apps | **No IMAP/POP** (web/app only), no catch-all, region restrictions | **Best true free custom-domain email** — zero cost, professional |
+| **Proton Mail** | 1 GB, 1 address, 3 folders/labels | No custom domain on free tier | Personal encrypted email (upgrade for domain) |
+| **Tuta (Tutanota)** | 1 GB, 1 address | No custom domain on free tier | Personal encrypted email, cheapest paid (€3/mo for 20 GB + 3 domains) |
+| **iCloud+** | 3 addresses/domain with 50 GB plan ($0.99/mo) | Requires Apple ecosystem, Family Sharing | Apple users, simple setup |
+| **Migadu** | **$19/year (Micro) = unlimited mailboxes, unlimited domains, flat fee** | No permanent free tier, but cheapest paid for many addresses | Teams/families with many aliases, flat pricing |
+| **Purelymail** | **$10/year for unlimited mailboxes/domains** | Newer, minimal UI | Absolute cheapest paid, no-frills |
+| **Mailbox.org** | 30-day trial, then €3.20/user/mo (1 GB + aliases + CalDAV/CardDAV) | No permanent free tier | German privacy, full standards (IMAP, POP, SMTP, CalDAV) |
+| **Fastmail** | 30-day trial, then $5/user/mo (30 GB) | No free tier | Best UX, speed, reliability — worth paying for |
+| **cPanel / Hostinger / Bluehost** | **Effectively free** (bundled with hosting) | Tied to hosting provider, basic features | If you already pay for web hosting |
+
+> **Arbitrage pick:** **Zoho Mail Free** for 5 professional addresses @ $0/year (just buy domain ~$10/yr). Upgrade to **Migadu Micro ($19/yr)** when you need IMAP + unlimited aliases/domains.
+
+---
+
+## 🔍 How to Find More Yourself
+
 ## 💡 Personal "Arbitrage Stack" (Reference)
 
 ```
@@ -175,5 +211,24 @@
 4. **Watch for:** "Free for personal use", "Free for students/OSS", "Community edition", "Hobby tier", "Freemium with no feature gates"
 
 ---
+
+*File created: 2025-11-25 | Source: Web research + community knowledge*
+
+---
+
+## 📊 Monitoring & Observability (Full-Stack Free)
+
+| Tool | Free Tier | Why It's Arbitrage |
+|------|-----------|-------------------|
+| **Grafana Cloud Free** | 10k metric series, **50 GB each** logs/traces/profiles, 14-day retention, **3 users** (unlimited on some plans) | Hosted LGTM stack (Loki, Tempo, Mimir, Pyroscope, Faro), zero infra, OpenTelemetry native |
+| **New Relic Free** | **100 GB ingest/month**, **1 full-platform user**, unlimited hosts/agents/containers/functions | All signals in one DB (NRDB), no per-host pricing, own OTel distros |
+| **Better Stack** | Generous free tier: logs, metrics, uptime, cron monitoring | Bundles services that usually need multiple subs, 30-sec uptime checks |
+| **Grepr** | **Unlimited users**, **4 TB logs/mo**, **8 TB traces/mo**, 2 pipelines, 1 integration/vendor | No credit card, no trial clock, point prod traffic at it |
+| **OpenObserve** | Generous free cloud tier + easy self-host (single binary) | SQL-compatible, 10x cheaper than Elastic, 14-day retention free |
+| **Dash0** | 10k metric series, 50 GB each logs/traces/profiles, 14-day retention, 3 users | OpenTelemetry-native, built on ClickHouse, transparent pricing |
+| **Signoz** | Self-hosted: unlimited (you pay infra); Cloud: generous free tier | Full APM + logs + metrics, OpenTelemetry native, ClickHouse backend |
+| **Highlight.io** | 50k sessions/mo free, 30-day retention, error monitoring + session replay | Session replay + errors + logs in one, open source |
+
+> **Pro tip:** For **hosted, zero-ops**: Grafana Cloud Free (best all-rounder) or New Relic Free (highest ingest). For **self-hosted control**: Signoz or OpenObserve on a $4–6 VPS. For **session replay + errors**: Highlight.io free tier beats Sentry's free tier.
 
 *File created: 2025-11-25 | Source: Web research + community knowledge*
