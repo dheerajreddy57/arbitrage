@@ -232,3 +232,214 @@
 > **Pro tip:** For **hosted, zero-ops**: Grafana Cloud Free (best all-rounder) or New Relic Free (highest ingest). For **self-hosted control**: Signoz or OpenObserve on a $4–6 VPS. For **session replay + errors**: Highlight.io free tier beats Sentry's free tier.
 
 *File created: 2025-11-25 | Source: Web research + community knowledge*
+
+---
+
+## 🖼️ Image / CDN / Video Optimization (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Open Source (Lead)
+
+| Tool | License | Type | Why It's Arbitrage |
+|------|---------|------|-------------------|
+| **Imgproxy** | MIT | Image CDN (self-hosted) | Single Go binary, URL-based transforms, WebP/AVIF, JWT signed URLs, runs on $4 VPS or Cloud Run |
+| **Thumbor** | MIT | Image CDN (self-hosted) | Python-based, smart crop (face/feature detection), filters, extensible, battle-tested at scale |
+| **LibrePhotos** | AGPL-3.0 | Google Photos alternative | Self-hosted photo management, AI tagging, facial recognition, map/timeline views, mobile apps |
+| **Immich** | AGPL-3.0 | Google Photos alternative | **50k+ stars**, active dev, ML tagging, face recognition, partners/sharing, mobile apps (F-Droid) |
+| **PhotoPrism** | AGPL-3.0 | Photo management | AI-powered, browsable by location/timeline/people, RAW support, Docker deploy |
+| **Mux (Self-Hosted Components)** | Apache 2.0 | Video encoding/player | Mux Player open source, per-title encoding logic, great DX — pair with S3 + CloudFront |
+| **PeerTube** | AGPL-3.0 | Federated video platform | ActivityPub, P2P (WebRTC), live streaming, plugins, no central server needed |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Type | Why It's Arbitrage |
+|---------|-----------|------|-------------------|
+| **Cloudflare Images** | **5,000 transforms/mo** free (on Cloudflare free) | Image CDN | 300+ PoPs, auto WebP/AVIF, variants via URL params, no separate CDN needed |
+| **Cloudinary** | **25 credits/mo** (~25 GB bandwidth OR 25K transforms) | Image + Video CDN | Most complete feature set: AI crop, smart quality, overlays, video transforms, shared credits |
+| **ImageKit** | **20 GB bandwidth/mo**, generous image quota | Image + Video CDN | 700+ edge nodes, real-time URL transforms, AI features, generous free tier |
+| **Mux** | **100,000 delivered minutes/mo FREE**, free encoding (all res), free ingress | Video API | Per-title encoding (20-35% savings), Stripe-for-video DX, great player, WebRTC live |
+| **Cloudflare Stream** | Free tier for testing, then $5/1K min stored + $1/1K min delivered | Video API | One vendor if on Cloudflare, predictable pricing, auto captions (Workers AI) |
+| **Bunny Stream** | No permanent free tier, but **$1/mo per 100 GB storage + $0.005/GB delivery** | Video CDN | Cheapest raw delivery, 119 PoPs, 25ms latency, flat pricing |
+
+> **Pro tip:** **Images:** Self-host Imgproxy on Cloud Run / $4 VPS = zero marginal cost. **Already on Cloudflare?** Cloudflare Images free transforms. **Video:** Mux free 100K delivered mins is unbeatable. **Photos:** Immich (50k+ stars, F-Droid app) for Google Photos replacement.
+
+*File created: 2025-11-25 | Source: Web research + community knowledge*
+
+---
+
+## 🔐 Auth / Identity (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Open Source (Lead)
+
+| Tool | License | Type | Best For | GitHub Stars |
+|------|---------|------|----------|--------------|
+| **Authentik** | MIT | Full IdP (OIDC, SAML, LDAP, SCIM, Proxy) | **SMB/teams, custom flows, visual editor** | 12k+ |
+| **Authelia** | Apache-2.0 | Forward Auth / Lightweight SSO | **Homelab, reverse-proxy MFA for legacy apps** | 20k+ |
+| **Keycloak** | Apache-2.0 | Enterprise IAM/IdP | **Enterprise SSO, SAML, AD/LDAP federation, fine-grained authz** | 22k+ |
+| **Zitadel** | AGPL-3.0 | B2B SaaS IdP (multi-tenant) | **Multi-tenant B2B, org management, Audit log** | 8k+ |
+| **Ory Kratos + Hydra** | Apache-2.0 | Headless, API-first identity | **Microservices, custom UI, polyglot stacks** | 11k+ (Kratos) |
+| **SuperTokens** | Apache-2.0 | Embedded auth in your app | **Dev-friendly SDKs, passwordless, MFA, session mgmt** | 12k+ |
+| **Logto** | MIT | Modern TypeScript IdP | **Pre-built sign-in, orgs, RBAC, OIDC/SAML** | 9k+ |
+| **Pocket ID** | AGPL-3.0 | Passkey-only SSO | **Passkey-only login, minimal, OIDC provider** | 5k+ |
+| **Kanidm** | MIT | Linux-centric IdP | **Rust, LDAP+MFA, PAM/SSSD integration** | 3k+ |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Clerk** | **10,000 MAU free**, unlimited orgs, MFA, passkeys, device fingerprints | React/Next.js apps, drop-in components, great DX |
+| **Auth0 (Community)** | **7,000 MAU free**, 2 social providers, basic MFA | Enterprise features, extensive integrations |
+| **Firebase Auth** | **Free (Spark)**: unlimited email/password, social, anonymous, phone (10K/mo) | Mobile/flutter/web, Google ecosystem |
+| **Supabase Auth** | Included in Supabase free (500 MB DB, 2 GB bandwidth) | Postgres-native, row-level security, magic links |
+| **WorkOS** | **Free up to 1M MAU** for SSO (SAML/OIDC), Directory Sync (SCIM) | B2B SaaS adding enterprise SSO |
+| **Stytch** | **Free tier**: 1,000 MAU, email magic links, OTP, OAuth | Passwordless-first, flexible APIs |
+
+> **Pro tip:** **Homelab/reverse-proxy:** Authelia (tiny, <30 MB RAM). **Team/SMB:** Authentik (visual flows, MIT). **Enterprise/SAML:** Keycloak (mature, CNCF). **B2B SaaS:** Zitadel (multi-tenant) or WorkOS (free 1M MAU for SSO). **App-embedded:** SuperTokens or Clerk (10K MAU free). **Passkeys-only:** Pocket ID.
+
+*File created: 2025-11-25 | Source: Web research + community knowledge*
+
+---
+
+## 📱 Android (F-Droid) — Best Open Source Apps 2024/2025
+
+| Category | App | Description | F-Droid | GitHub Stars |
+|----------|-----|-------------|---------|--------------|
+| **App Store** | **F-Droid** | The FOSS app repository itself | ✅ Core | 4k+ |
+| **Browser** | **Firefox / Fennec** | Privacy-focused, uBlock Origin support | ✅ | 30k+ (Firefox) |
+| | **Brave / Cromite** | Chromium-based, built-in shields, privacy | ✅ | — |
+| | **Vanadium** | Hardened Chromium (GrapheneOS) | ✅ GrapheneOS repo | — |
+| **Keyboard** | **FlorisBoard** | Modern, privacy-first, swipe, themes | ✅ | 3k+ |
+| | **Unexpected Keyboard** | Dev-focused, programmable, terminal keys | ✅ | 2k+ |
+| | **Heliboard** | Futo fork, swipe, clipboard, no network | ✅ | 1k+ |
+| **Maps/Navigation** | **Organic Maps** | Offline maps (OSM), no tracking, fast | ✅ | 10k+ |
+| | **OsmAnd** | Full-featured OSM, navigation, POIs | ✅ | 5k+ |
+| | **CO Maps** | Minimal, offline-first, privacy | ✅ | — |
+| **Media** | **NewPipe** | YouTube frontend, no ads, background, download | ✅ | 35k+ |
+| | **LibreTube** | Piped-based YouTube, privacy, subscriptions | ✅ | 4k+ |
+| | **VLC / Nova Video Player** | Local media, network streams, codecs | ✅ | 5k+ (VLC) |
+| | **MPV Android** | Minimal, hardware decode, yt-dlp support | ✅ | — |
+| **Photos/Gallery** | **Aves Libre** | Gallery + metadata, no ads, Material You | ✅ | 2k+ |
+| | **Immich Mobile** | Companion for self-hosted Immich | ✅ | 50k+ (Immich) |
+| | **Ente Photos** | E2EE photo sync, self-hostable | ✅ | 5k+ |
+| **Files** | **Material Files** | Clean, root support, SMB/FTP/WebDAV | ✅ | 5k+ |
+| | **Ghost Commander** | Dual-pane, plugins, root, SMB/SFTP | ✅ | 2k+ |
+| | **Syncthing** | P2P file sync, no cloud, cross-platform | ✅ | 60k+ |
+| **Notes/PKM** | **Joplin** | E2EE, Markdown, sync (Nextcloud, WebDAV, S3) | ✅ | 45k+ |
+| | **Logseq / Obsidian (via community)** | Local-first, bidirectional links | ✅ Logseq | 35k+ (Logseq) |
+| | **Simple Notes Sync** | Offline, self-hosted sync, <5 MB | ✅ | — |
+| **Password Manager** | **Bitwarden** | Unlimited, self-hostable, passkeys | ✅ | 40k+ |
+| | **KeePassDX** | KeePass DB, Material Design, Biometric | ✅ | 4k+ |
+| | **Proton Pass** | E2EE, aliases, integrated ecosystem | ❌ (Play Store) | — |
+| **Communication** | **Signal** | E2EE messaging, calls, no metadata | ✅ | 10k+ |
+| | **Conversations / Monocles Chat** | XMPP/OMEMO, modern UI | ✅ | 2k+ |
+| | **Element / SchildiChat** | Matrix client, E2EE, spaces | ✅ | 5k+ |
+| | **FluffyChat** | Matrix, cute UI, cross-platform | ✅ | 2k+ |
+| **Email** | **Thunderbird / K-9 Mail** | IMAP/POP, OpenPGP, Material Design | ✅ | 5k+ |
+| | **FairEmail** | Privacy-focused, PGP, no tracking | ✅ | 3k+ |
+| **RSS/News** | **Feeder** | Material You, offline, OPML, no tracking | ✅ | 2k+ |
+| | **Read You** | Minimal, Material 3, offline-first | ✅ | 1k+ |
+| **System/Utils** | **AdAway** | System-wide ad block (hosts file, root/VPN) | ✅ | 8k+ |
+| | **RethinkDNS** | Firewall + DNS + VPN, per-app rules | ✅ | 5k+ |
+| | **DNS66** | DNS-based ad block, no root (VPN API) | ✅ | 2k+ |
+| | **Shizuku** | ADB/API access for apps without root | ✅ | 10k+ |
+| | **Termux** | Linux terminal, packages, SSH, Python | ✅ | 35k+ |
+| | **UserLAnd** | Linux distros on Android (no root) | ✅ | 3k+ |
+| **2FA/Auth** | **Aegis / AuthPass / TOTP Authenticator** | TOTP, encrypted backup, biometric | ✅ | 5k+ (Aegis) |
+| | **andOTP** | Minimal, encrypted, fingerprint | ✅ (archived) | 3k+ |
+| **VPN/Privacy** | **Proton VPN / Mullvad / IVPN** | No-logs, open source clients | ✅ Proton/Mullvad | — |
+| | **WireGuard / Tailscale** | Modern VPN, mesh networking | ✅ | 10k+ (WireGuard) |
+| **Weather** | **Breezy Weather** | Material You, multiple sources, no tracking | ✅ | 3k+ |
+| **Finance** | **Oinkoin / Skrooge / GnuCash Mobile** | Offline, local, export CSV/OFX | ✅ | — |
+| **Health/Fitness** | **Gadgetbridge** | Pebble/Mi Band/GB Watch, no vendor cloud | ✅ | 5k+ |
+| | **OpenTracks** | GPX tracking, offline, no ads | ✅ | 1k+ |
+
+> **Pro tip:** Install **F-Droid** first, then **Neo Store** (modern F-Droid client). Enable **IzzyOnDroid** repo for more apps. **Backup strategy:** Seedvault (system backup) + Syncthing (app data) + manual APK exports.
+
+*File created: 2025-11-25 | Source: F-Droid, community lists, GitHub*
+
+---
+
+## 🐧 Linux Desktop — Best Open Source Apps 2024/2025
+
+| Category | App | Description | License | Notes |
+|----------|-----|-------------|---------|-------|
+| **Terminal** | **Ghostty** | GPU-accelerated, native tabs, ligatures, fast | MIT | Zig, cross-platform, 30k+ stars |
+| | **Kitty** | GPU, ligatures, kittens (extensions), scriptable | GPL-3.0 | Python extensibility, 25k+ stars |
+| | **WezTerm** | GPU, Lua config, multiplexer, SSH | MIT | Cross-platform, 20k+ stars |
+| | **Alacritty** | GPU, minimal, YAML config, fast | Apache-2.0 | No tabs (use tmux/zellij), 55k+ stars |
+| | **Foot** | Wayland-native, fast, lightweight | MIT | Sway/Wayland default, minimal deps |
+| **Shell** | **Fish** | User-friendly, autosuggestions, web config | GPL-3.0 | No POSIX compat, great interactive |
+| | **Zsh + Oh My Zsh / Zim** | Extensible, massive plugin ecosystem | MIT | Standard on macOS, POSIX |
+| | **Nushell** | Structured data, pipelines as tables, cross-platform | MIT | Not POSIX, data-first approach |
+| **Terminal Multiplexer** | **Zellij** | Tabs, panes, plugins (WASM), layout engine | MIT | Rust, batteries included, 15k+ stars |
+| | **tmux** | Battle-tested, scriptable, client-server | BSD-3 | Standard, everywhere |
+| **File Manager** | **Yazi** | TUI, async I/O, image preview, pluginable | MIT | Rust, 20k+ stars |
+| | **lf** | TUI, single binary, file preview, vim keys | MIT | Go, minimal, 10k+ stars |
+| | **Thunar / Nemo / Dolphin** | GTK/Qt GUI, plugins, bulk rename | GPL/LGPL | DE-native (Xfce/Cinnamon/KDE) |
+| **Editor/IDE** | **Neovim** | Modal, Lua config, LSP, Treesitter, plugins | Apache-2.0 | 70k+ stars, modern Vim |
+| | **Helix** | Modal, Treesitter, LSP built-in, no config needed | MPL-2.0 | Rust, batteries included, 30k+ stars |
+| | **Zed** | Multiplayer, GPU, Rust, LSP, collaborative | AGPL-3.0 | 40k+ stars, macOS/Linux |
+| | **VS Code / VSCodium** | Extensions, debugging, Copilot | MIT | VSCodium = no telemetry |
+| | **Kate / GNOME Text Editor** | DE-native, LSP, sessions | GPL/LGPL | KDE/GNOME default |
+| **System Monitor** | **btop++** | TUI, GPU (NVIDIA/AMD), graphs, processes | Apache-2.0 | C++, 15k+ stars |
+| | **htop / bashtop / gotop** | Classic / Python / Go variants | GPL/MIT | btop++ is the modern choice |
+| | **Mission Center** | GTK4, libadwaita, systemd, sensors | GPL-3.0 | GNOME-style, 5k+ stars |
+| **Launcher/Runner** | **Rofi / Rofi-Wayland** | dmenu replacement, drun, window switcher | MIT | Highly customizable, scripts |
+| | **Wofi** | Wayland-native, GTK, drun mode | GPL-3.0 | Sway/Wayland |
+| | **Ulauncher** | Python, extensions, fuzzy, clipboard | GPL-3.0 | X11/Wayland, 5k+ stars |
+| **Clipboard** | **Cliphist** | Wayland, history, image support, rofi/wofi integration | MIT | 3k+ stars |
+| | **CopyQ** | Cross-platform, scripting, tags, images | GPL-3.0 | Qt, powerful, 5k+ stars |
+| | **GPaste** | GNOME integration, history, search | GPL-3.0 | GNOME Shell extension |
+| **Sync/Backup** | **Syncthing** | P2P, no cloud, cross-platform, versioning | MPL-2.0 | 60k+ stars, set-and-forget |
+| | **Restic / BorgBackup** | Encrypted, deduplicated, incremental | BSD-3 / BSD-3 | CLI, repo-based, S3/B2/rclone |
+| | **Timeshift** | System snapshots (btrfs/rsync), GRUB integration | GPL-2.0 | System rollback, not file backup |
+| **Network/VPN** | **Tailscale / Headscale** | WireGuard mesh, self-hosted control plane | BSD-3 | 15k+ stars (Tailscale client) |
+| | **WireGuard / wg-quick** | Kernel VPN, minimal, fast | GPL-2.0 | Built into Linux kernel |
+| | **NetworkManager / systemd-networkd** | Standard network management | GPL/LGPL | DE-agnostic |
+| **Password/Secrets** | **Bitwarden CLI / bw** | Vault access, TOTP, passkeys | GPL-3.0 | 40k+ stars |
+| | **KeePassXC** | KeePass 2.x, browser integration, YubiKey | GPL-3.0 | 15k+ stars |
+| | **Pass / gopass** | Unix philosophy, GPG encrypt, git sync | GPL-3.0 | CLI, standard on Linux |
+| | **1Password CLI (op)** | Proprietary but free CLI, biometric | Proprietary | Good UX, not FOSS |
+| **Notes/PKM** | **Obsidian** | Local Markdown, graph, canvas, plugins | Proprietary (free personal) | Not FOSS but free, 50k+ stars |
+| | **Logseq** | Local-first, outliner, bidirectional, whiteboard | AGPL-3.0 | 35k+ stars |
+| | **Joplin** | E2EE, Markdown, sync, plugins | MIT | 45k+ stars |
+| | **Trilium Notes** | Hierarchical, rich text, E2EE sync, scriptable | AGPL-3.0 | 25k+ stars |
+| | **AppFlowy** | Notion alternative, Rust/Flutter, local-first | AGPL-3.0 | 50k+ stars |
+| **Media** | **MPV** | Minimal, hardware decode, yt-dlp, Lua scripts | GPL-2.0 | 25k+ stars |
+| | **VLC** | Everything plays, network, codecs | GPL-2.0 | 5k+ stars |
+| | **Strawberry / Clementine** | Music player, collection, tags | GPL-3.0 | Audiophile-focused |
+| | **OBS Studio** | Streaming, recording, scenes, plugins | GPL-2.0 | 50k+ stars |
+| **Graphics/Design** | **Krita** | Digital painting, animation, brushes | GPL-3.0 | 10k+ stars |
+| | **GIMP** | Photo editing, PSD, plugins, GEGL | GPL-3.0 | 5k+ stars |
+| | **Inkscape** | Vector graphics, SVG, extensions | GPL-2.0 | 5k+ stars |
+| | **Blender** | 3D modeling, sculpting, animation, VFX | GPL-2.0 | 15k+ stars |
+| | **Penpot** | UI/UX design, web-based, self-hostable | MPL-2.0 | 25k+ stars |
+| **Office/Productivity** | **LibreOffice** | Writer, Calc, Impress, Base, Math | MPL-2.0 | 5k+ stars |
+| | **OnlyOffice** | MS Office compat, collaborative | AGPL-3.0 | 5k+ stars |
+| | **Zettlr** | Markdown, citations, Zotero, export | GPL-3.0 | Academic writing, 5k+ stars |
+| **Communication** | **Element / FluffyChat / SchildiChat** | Matrix, E2EE, spaces | Apache-2.0 | 5k+ stars |
+| | **Signal Desktop** | E2EE, linked to phone | AGPL-3.0 | 10k+ stars |
+| | **Thunderbird** | Email, calendar, PGP, Exchange | MPL-2.0 | 5k+ stars |
+| **Container/VM** | **Podman / Distrobox** | Rootless containers, daemonless, OCI | Apache-2.0 | 20k+ stars (Podman) |
+| | **Docker (Engine)** | Industry standard, Compose, Swarm | Apache-2.0 | Proprietary desktop app |
+| | **virt-manager / GNOME Boxes** | KVM/QEMU GUI, VM management | GPL-2.0 | Libvirt frontend |
+| | **Incus / LXD** | System containers, VMs, clustering | Apache-2.0 | Canonical → community fork |
+| **Dev Tools** | **Git / GitUI / Lazygit** | TUI Git, visual, fast | MIT | Lazygit 45k+ stars |
+| | **GitHub CLI (gh) / GitLab CLI (glab)** | PRs, issues, CI, repo mgmt | MIT | Official CLIs |
+| | **Direnv** | Per-dir env vars, auto-load/unload | MIT | Shell hook, essential |
+| | **Mise / asdf / rtx** | Runtime version manager, polyglot | MIT | Mise = Rust, faster, tasks |
+| | **Just / Task / Make** | Command runner, recipes, cross-platform | CC0 / MIT | Just = modern Make |
+| | **Dust / Duc / Ncdu** | Disk usage, TUI, fast | Apache-2.0 | Dust = Rust, colors |
+| | **fd / ripgrep / ugrep** | Find / grep / search, fast, respect .gitignore | MIT/Apache-2.0 | Essential modern CLI |
+| | **Bat / Delta / Difftastic** | Cat / diff / structural diff, syntax highlight | MIT/Apache-2.0 | Better defaults |
+| | **Zoxide / Autojump / Fasd** | Smart cd, frecency ranking | MIT | Zoxide = Rust, fast |
+| | **Fzf / Skim / Fzy** | Fuzzy finder, pipe everything | MIT | Fzf = standard, 60k+ stars |
+| | **Tmux / Zellij / Screen** | Terminal multiplexer | BSD-3/MIT | Zellij = modern, WASM plugins |
+| | **Starship / Oh My Posh / Powerlevel10k** | Cross-shell prompt, fast, configurable | MIT/ISC | Starship = Rust, 70k+ stars |
+
+> **Pro tip:** **Terminal:** Ghostty (if on macOS/Linux) or Kitty/WezTerm. **Shell:** Fish (interactive) + Zsh (scripts). **Multiplexer:** Zellij (batteries included). **Files:** Yazi (TUI) + Thunar/Dolphin (GUI). **Editor:** Neovim (modal) or Helix (batteries) or Zed (collab). **Monitor:** btop++. **Launcher:** Rofi (X11) / Wofi (Wayland). **Clipboard:** Cliphist (Wayland). **Sync:** Syncthing. **Backup:** Restic + Rclone. **VPN:** Tailscale/Headscale. **Passwords:** Bitwarden CLI + KeePassXC. **Notes:** Logseq or Obsidian. **Media:** MPV + Strawberry. **Design:** Penpot (web) + Krita/GIMP/Inkscape/Blender. **Containers:** Podman + Distrobox. **CLI essentials:** fd, ripgrep, bat, delta, fzf, zoxide, starship, mise, just, lazygit, gh/glab.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub stars, Linux forums*
+
+---
+
+## 🔍 How to Find More Yourself
