@@ -774,3 +774,175 @@
 ---
 
 ## 🔍 How to Find More Yourself
+---
+
+## 💰 Personal Finance (Open Source First + Generous SaaS)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Self-Hosted | Mobile (F-Droid) | Key Features | GitHub Stars |
+|------|---------|-------------|------------------|--------------|--------------|
+| **Firefly III** | AGPL-3.0 | ✅ Docker, web-based | Waterfly III (unofficial companion) | Double-entry, multi-currency, budgets, rules, recurring, tags, links, REST API, Docker | ~20k |
+| **Actual Budget** | MIT | ✅ Node.js + SQLite, Docker | ✅ Official (PWA, works on mobile) | Local-first, YNAB-style envelope budgeting, sync server (Actual Server), encryption, recurring | ~12k |
+| **GnuCash** | GPL-2.0+ | ✅ Desktop (Linux/macOS/Win) | ❌ No official (GnuCash Android separate, 3.5k★) | Double-entry, stocks/mutual funds, QIF/OFX import, reports, Scheduled Transactions | ~4.4k |
+| **Skrooge** | GPL-2.0+ | ✅ KDE Desktop (Linux/Win/macOS) | ❌ No | KDE-based, multi-currency, OFX/QIF/CSV, reports, forecasts, charts, KMyMoney import | — |
+| **KMyMoney** | GPL-2.0+ | ✅ KDE Desktop (Linux/Win/macOS) | ❌ No | Double-entry, investments, budgets, OFX/QIF, reports, KDE integration, scheduled | — |
+| **HomeBank** | GPL-2.0+ | ✅ Desktop (Linux/Win/macOS) | ❌ No | Lightweight, simple, OFX/QIF/CSV, categories, budgets, reports, charts | — |
+| **Beancount** | GPL-3.0 | ✅ CLI, text files, Fava web UI | ❌ No | Plain-text double-entry, Fava web UI (charts, queries), Beancount Query Language | ~6k (Beancount), ~6.5k (Fava) |
+| **Ledger (CLI)** | BSD-3-Clause | ✅ CLI, text files | ❌ No | Powerful reporting, commodity pricing, virtual transactions, scripting, Vim/Emacs modes | ~6.1k |
+| **hledger** | GPL-3.0 | ✅ CLI, TUI, Web UI, text files | ❌ No | Ledger-compatible, CSV/JSON/TOML import, web UI, rules, periodic transactions, TUI | ~2.8k |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Monarch Money** | 7-day trial, then $14.99/mo | Modern YNAB alternative, great UX, auto-import |
+| **YNAB** | 34-day trial, then $14.99/mo | Envelope budgeting gold standard, great mobile |
+| **PocketGuard** | Free: basic, 1 account | Simple, automatic categorization, bills tracking |
+| **Goodbudget** | Free: 10 envelopes, 1 device | Envelope budgeting, web + mobile, couples sync |
+| **Splitwise** | Free: unlimited expenses, groups | Shared expenses, settlements, not full budgeting |
+
+> **Pro tip:** **Maximum control + zero cost:** Actual Budget (self-hosted, YNAB-style, PWA mobile) or Firefly III (feature-rich, Docker, REST API). **Plain-text accounting:** Beancount + Fava (web UI) or hledger (TUI/Web/CLI). **Classic desktop:** GnuCash (mature, investments, OFX). **KDE users:** Skrooge or KMyMoney. **Minimal:** HomeBank (lightweight, simple).
+
+*File created: 2025-11-25 | Source: GitHub, F-Droid, project docs, community lists*
+
+---
+
+## 🎬 Personal Media Server (Open Source First)
+
+| Project | License | Self-Hosted | Mobile Client (F-Droid) | Key Features | GitHub Stars |
+|---------|---------|-------------|-------------------------|--------------|--------------|
+| **Jellyfin** | GPL-2.0 | ✅ Full server | ✅ Official (`org.jellyfin.mobile`) + `Findroid` (GPL-3.0) | Movies, TV, music, Live TV/DVR, multi-user, hardware transcoding, plugins, Chromecast/DLNA, Plex/Emby import | ~25k (server) · 2.8k (Android) |
+| **Immich** | AGPL-3.0 | ✅ Full stack | ✅ Official (`app.alextr`) | **Google Photos replacement**, ML tagging, face recognition, partners/sharing, maps/timeline, F-Droid app | **50k+** |
+| **Navidrome** | GPL-3.0 | ✅ Single binary, Docker | ✅ Subsonic-compatible (`DSub`, `Audinaut`, `Tempo` on F-Droid) | Music server, Subsonic API, transcoding, playlists, smart playlists, multi-user, Last.fm scrobbling | ~12k |
+| **Audiobookshelf** | MIT | ✅ Docker, single binary | ✅ Official (`com.audiobookshelf.app`) | Audiobooks + podcasts, PWA, Chromecast, CarPlay, OpenOCD, multi-user, metadata | ~7k |
+| **LibrePhotos** | AGPL-3.0 | ✅ Docker (multi-container) | ✅ Planned / community | Google Photos alt, AI tagging, facial recognition, map/timeline, map view, albums | ~8.1k |
+| **PhotoPrism** | AGPL-3.0 | ✅ Docker (TF, Go) | ❌ No official (PWA works) | AI-powered, browsable by location/timeline/people, RAW support, Docker deploy, maps | ~35k |
+| **Koel** | AGPL-3.0 | ✅ Laravel + Vue, Docker | ❌ No official (PWA works) | Personal music streaming, YouTube import, Last.fm, smart playlists, themes | ~6.5k |
+| **Gonic** | AGPL-3.0 | ✅ Single Go binary | ✅ Subsonic clients (F-Droid) | Lightweight music server, Subsonic API, transcoding, playlists, Ogg/FLAC/MP3 | ~2k |
+| **Plex (Free Tier)** | Proprietary | ✅ Server | ✅ Official | Polish, remote access, apps everywhere, Live TV/DVR (Plex Pass), hardware transcoding | — |
+| **Emby (Free Tier)** | Proprietary (core open) | ✅ Server | ✅ Official | Similar to Plex, more open core, Live TV/DVR (Premiere) | — |
+
+> **Pro tip:** **Movies/TV:** Jellyfin (fully free, no premium locks, hardware transcoding). **Music:** Navidrome (lightweight, Subsonic API, works with any Subsonic client on F-Droid) or Gonic (single Go binary). **Photos:** Immich (50k+ stars, ML tagging, face recognition, F-Droid app) or PhotoPrism (AI features, polished). **Audiobooks/Podcasts:** Audiobookshelf (dedicated, PWA, CarPlay). **Zero-cost stack:** Jellyfin + Navidrome + Immich + Audiobookshelf on a $5-10 VPS or home server.
+
+*File created: 2025-11-25 | Source: GitHub, F-Droid, self-hosted communities*
+
+---
+
+## ⚙️ Personal Automation (Open Source First)
+
+| Tool | License | Self-Hosted | Key Features | GitHub Stars | Complexity |
+|------|---------|-------------|--------------|--------------|------------|
+| **n8n** | Fair-code (Sustainable Use License) | ✅ Docker, npm, Kubernetes | Visual workflow builder, 400+ integrations, native AI/LangChain support, custom JS/Python nodes, 900+ templates | **50k+** | Medium |
+| **Huginn** | MIT | ✅ Docker, Rails | Agents (scrape, watch, act), event-driven, scripting, email/Telegram/Slack, scheduled, 1000+ agents | ~43k | High (Ruby) |
+| **Activepieces** | MIT | ✅ Docker, Cloudflare Workers, self-hosted | Visual builder, 200+ pieces (integrations), AI steps, branching, loops, webhooks, open-core | ~12k | Low-Medium |
+| **Windmill** | AGPL-3.0 | ✅ Docker, binary, Rust + Python/Go/TypeScript | Scripts as workflows, SQL/HTTP/Python/TypeScript, approval flows, schedules, user management | ~8k | Medium-High |
+| **Node-RED** | Apache-2.0 | ✅ Docker, npm, Raspberry Pi | Browser-based flow editor, IoT-focused, 4000+ nodes, hardware (GPIO, MQTT, serial), lightweight | ~20k | Low (visual) |
+| **Automatisch** | AGPL-3.0 (core) / Proprietary (EE) | ✅ Docker | Zapier alternative, visual builder, 100+ integrations, webhooks, schedules, self-hosted first | ~5k | Low |
+
+> **Pro tip:** **Most popular + AI:** n8n (400+ integrations, LangChain native, Fair-code). **Developer-first:** Windmill (scripts as workflows, Rust, typed, approval flows). **IoT/Hardware:** Node-RED (browser flow editor, 4000+ nodes, Pi-friendly). **Simplest Zapier alt:** Activepieces (modern UI, 200+ pieces, MIT). **Event-driven agents:** Huginn (powerful, Ruby, steep learning). **Note:** "Loco" is a Rust web framework (loco-rs), not an automation tool.
+
+*File created: 2025-11-25 | Source: GitHub, project docs, community comparisons*
+
+---
+
+## 💾 Personal Backup (Open Source First)
+
+| Tool / Service | License | Self-Hosted / Managed | Target Platforms | Encryption | Deduplication | GitHub Stars |
+|----------------|---------|-----------------------|------------------|------------|---------------|--------------|
+| **Restic** | BSD 2-Clause | Yes (Any storage backend) | Linux, macOS, Windows, BSD | AES-256 (E2EE) | Yes (Content-defined) | 37.4K |
+| **BorgBackup** | BSD 3-Clause | Yes (SSH / Client-Server) | Linux, macOS, BSD, Android (Termux) | AES-OCB-256 / ChaCha20 | Yes (Chunk-based) | 14.0K |
+| **Kopia** | Apache 2.0 | Yes (CLI, GUI, Server mode) | Linux, macOS, Windows, Web UI | AES-256-GCM / ChaCha20-Poly1305 | Yes (Content-defined) | 14.8K |
+| **Rclone** | MIT | Yes (CLI, Mount, Serve) | All platforms (CLI), Mount on Linux/macOS/Win | Crypt (configurable, E2EE) | No (sync tool) | 61.2K |
+| **Duplicati** | LGPL-2.1 | Yes (Docker, Mono/.NET) | Linux, macOS, Windows, Web UI | AES-256 (built-in) | Yes (Block-level) | 15.2K |
+| **UrBackup** | AGPL-3.0 / GPL-3.0 | Yes (Client-Server, Docker) | Linux, Windows, macOS (client), Web UI | AES-256 (optional) | Yes (Block-level) | 948 |
+| **Syncthing** | MPL-2.0 | Yes (P2P, no central server) | Windows, macOS, Linux, Android, iOS, BSD | TLS for all transfers; device auth via certs | No (sync, not backup) | 89.8K |
+
+> **Pro tip:** **Best all-rounder:** Restic (modern, fast, any backend: S3, B2, R2, Wasabi, SFTP, Rclone). **Mature, battle-tested:** BorgBackup (SSH push, great compression/dedup). **GUI + Web UI:** Kopia (beautiful UI, server mode for multi-user). **Swiss Army knife:** Rclone (sync, mount, serve, crypt — pair with Restic/Borg). **P2P sync (not backup):** Syncthing (device-to-device, versioning, 89k★). **For personal:** Restic + Rclone (to B2/R2/S3) + Syncthing (device sync) = complete strategy.
+
+*File created: 2025-11-25 | Source: GitHub, project docs, backup communities*
+
+---
+
+## 📰 Personal RSS / Read-Later (Open Source First)
+
+| Tool | License | Self-Hosted | Mobile (F-Droid) | Key Features | ★ GitHub |
+|------|---------|-------------|------------------|--------------|----------|
+| **FreshRSS** | AGPL-3.0 | ✅ | ✅ EasyRSS, FreshRSS, Read You | Multi-user, themes/extensions, WebSub, OPML, feed scraping, filters, 15+ langs, 1M+ articles | ~8.5k |
+| **Miniflux** | Apache-2.0 | ✅ | ✅ Flux News, Miniflutt, Read You, News | Go + PostgreSQL, Fever/GReader API, minimalist, keyboard shortcuts, OPML, Docker, low maintenance | ~9.9k |
+| **Wallabag** | MIT (server) / GPL-3.0 (Android) | ✅ | ✅ Official (`app.wallabag`) | Pocket/Instapaper alternative, annotations, tags, export, TTS, OCR, readability, F-Droid app | ~15.1k |
+| **Omnivore** | AGPL-3.0 | ✅ | ✅ Official (`com.omnivore`) | Read-later + newsletter, highlights, Logseq/Obsidian/Readwise sync, newsletter email, F-Droid | ~11k |
+| **NewsBlur** | MIT | ✅ | ✅ Official (`com.newsblur`) | Intelligence training, social, stories, original, web/archive, F-Droid, 64 sites free | ~7k |
+| **Feedpushr** | MIT | ✅ | ❌ No (headless) | Feed aggregator, webhook forwarding (MQTT/HTTP/Kafka), transforms feeds, minimal UI | ~1.5k |
+| **Stringer** | MIT | ✅ | ❌ No (Fever API) | Simple, single-user, keyboard nav, Fever API for clients, Heroku/Docker | ~3k |
+| **RSSHub** | MIT | ✅ | ❌ Not a reader | Generates RSS from 1000+ sites (Twitter, YouTube, Reddit, etc.), deploy alongside reader | ~30k |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Feedly** | **Free: 100 sources, 3 feeds, Leo AI (limited)** | Best UX, Leo AI, boards, newsletters |
+| **Inoreader** | **Free: 150 subscriptions, ads** | Power user, rules, automation, API |
+| **NewsBlur** | **Free: 64 sites, 10 stories/feed** | Original, training, intelligence, social |
+| **Readwise** | No free tier ($4.49/mo or $7.99/mo) | Highlights sync → Obsidian/Logseq/Notion/Roam |
+| **Matter** | Free tier available | Highlights, TTS, newsletter, Obsidian sync |
+| **Pocket** | Free: unlimited saves, ads, premium for search | Mozilla-owned, TTS, tags, offline |
+
+> **Pro tip:** **Self-hosted reader:** FreshRSS (feature-rich, F-Droid app) or Miniflux (tiny, fast, Go). **Read-later:** Wallabag (mature, annotations, F-Droid) or Omnivore (modern, highlights, newsletter, Obsidian/Logseq sync). **Feed generation:** RSSHub (run alongside your reader). **Zero cost:** FreshRSS + Wallabag + RSSHub on a $5 VPS = complete RSS/read-later stack.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
+---
+
+## 📅 Personal Calendar / Contacts (CalDAV/CardDAV Open Source First)
+
+| Project | Type | License | Self-Hosted | Mobile (F-Droid) | Key Features | ⭐ GitHub Stars |
+|---------|------|---------|-------------|------------------|--------------|-----------------|
+| **[Radicale](https://github.com/kozea/radicale)** | CalDAV/CardDAV Server | GPL-3.0 | ✅ Yes (Docker, bare-metal, systemd) | Via DAVx⁵, Etar, Fossify | Python, single file config, htpasswd/IMAP auth, rights management, lightweight | ~5.2k |
+| **[Baïkal](https://sabre.io/baikal/)** | CalDAV/CardDAV Server | GPL-3.0 | ✅ Yes (Docker, PHP, MySQL/SQLite/Postgres) | Via DAVx⁵, Etar, Fossify | Lightweight, SabreDAV, admin UI, PHP 8+, CardDAV/CalDAV | ~2k+ |
+| **[Nextcloud](https://github.com/nextcloud/server)** | Full Groupware | AGPL-3.0 | ✅ Yes (Docker AIO, Snap, bare metal) | ✅ Nextcloud app + DAVx⁵ | All-in-one: Cal, Contacts, Files, Talk, Deck, Mail, 25k+ stars | **~25k** |
+| **[EteSync](https://www.etesync.com/)** | E2EE CalDAV/CardDAV | AGPL-3.0 | ✅ Yes (Docker, Python) | ✅ Official (`com.etesync`) | Zero-knowledge, encrypted contacts/calendar, journal, F-Droid app | ~1.5k |
+| **[DAVx⁵](https://github.com/bitfireAT/davx5-ose)** | Android Sync Adapter | GPL-3.0 | N/A (Client) | ✅ **Primary F-Droid sync client** | Syncs any CalDAV/CardDAV server to Android, OpenTasks, per-account settings | **~4k** |
+| **[Etar Calendar](https://github.com/Etar-Group/Etar-Calendar)** | Android Calendar | Apache-2.0 | N/A (Client) | ✅ Yes | Material Design, CalDAV via DAVx⁵, recurring, widgets, themes | ~2.6k |
+| **[Fossify Calendar](https://github.com/FossifyOrg/Calendar)** | Android Calendar | GPL-3.0 | N/A (Client) | ✅ Yes | Simple, no ads, Material You, events, recurring, export/import | ~1k+ |
+
+### Quick-Start Stacks
+
+| Stack | Server | Android Client(s) | Best For |
+|-------|--------|-------------------|----------|
+| **Minimal** | Radicale (Docker) | DAVx⁵ + Etar / Fossify | Tiny VPS, single user, htpasswd auth |
+| **Full Groupware** | Nextcloud (Docker AIO) | Nextcloud app + DAVx⁵ | All-in-one: Files + Cal + Contacts + Talk + Deck |
+| **E2EE / Zero-Knowledge** | EteSync (Docker) | EteSync app + DAVx⁵ | Encrypted contacts/calendar, zero-knowledge |
+
+> **Pro tip:** **Minimal self-host:** Radicale (Python, tiny, htpasswd auth) or Baïkal (PHP, SabreDAV, admin UI). **Full groupware:** Nextcloud (Cal + Contacts + Files + Talk + Deck). **E2EE:** EteSync (zero-knowledge, F-Droid app). **Clients:** All above work with system calendar/contacts apps (GNOME Calendar, KOrganizer, Thunderbird, **DAVx⁵ on Android F-Droid**). **DAVx⁵** (F-Droid) is the best Android sync adapter for any CalDAV/CardDAV server.
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
+---
+
+## 📁 Personal File Sync (Open Source First)
+
+| Tool | License | Self-Hosted | Platforms | Encryption | GitHub Stars |
+|------|---------|-------------|-----------|------------|--------------|
+| **Syncthing** | MPL-2.0 | Yes (P2P, no central server) | Windows, macOS, Linux, Android, iOS, FreeBSD, OpenBSD | TLS for all transfers; device auth via certificates | ~89.8k |
+| **Nextcloud** | AGPL-3.0-or-later | Yes (Docker AIO, bare metal, Snap) | Web, Windows, macOS, Linux, Android, iOS | Server-side encryption; optional E2EE for folders | ~25k |
+| **Seafile** | AGPL-3.0 (Community) | Yes (Docker, bare metal) | Web, Windows, macOS, Linux, Android, iOS | Library encryption (per-library); server-side | ~12k |
+| **Pydio Cells** | AGPL-3.0 (Community) | Yes (Docker, binary) | Web, Windows, macOS, Linux, Android, iOS | Workspace encryption; S3 gateway encryption | ~2.3k |
+| **OwnCloud** | AGPL-3.0 (Community) | Yes (Docker, bare metal) | Web, Windows, macOS, Linux, Android, iOS | Server-side encryption; E2EE (Enterprise) | ~5k |
+| **FileBrowser** | MIT | Yes (Single binary, Docker) | Web, Windows, macOS, Linux | No native encryption (use S3/age/crypt) | ~15k |
+| **Rclone + Rclone Mount** | MIT | Yes (CLI, Mount, Serve, VFS) | CLI all platforms; Mount on Linux/macOS/Win | **Crypt** remote: AES-256 + Poly1305 (E2EE for any cloud) | ~61.2k |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **MEGA** | **20 GB free** (up to 35 GB via achievements) | Zero-knowledge, CLI, browser, EU-hosted |
+| **pCloud** | **10 GB free** (+10 GB referrals) | Lifetime plans, media streaming, Crypto (paid E2EE) |
+| **Proton Drive** | **5 GB free** (500 GB + VPN + Mail + Pass + Cal for $9.99/mo Unlimited) | Swiss, E2EE, integrated ecosystem |
+| **Sync.com** | **5 GB free** (+1 GB/referral) | Zero-knowledge, Canadian, great sharing |
+| **Google Drive / OneDrive / Dropbox / iCloud** | 15 GB / 5 GB / 2 GB / 5 GB free | Integration, collaboration, not private |
+
+> **Pro tip:** **Zero cloud, P2P:** Syncthing (89k+ stars, F-Droid, set-and-forget, versioning, relay servers). **Self-hosted Dropbox:** Nextcloud (full groupware) or Seafile (faster, block-level sync, libraries). **Minimal WebDAV:** FileBrowser (single binary, S3/local, dark mode). **Cloud storage + sync:** MEGA (20 GB E2EE) + pCloud (10 GB media) + Proton Drive (5 GB docs) = 35 GB free. **Mount cloud locally:** Rclone mount (Google Drive/S3/B2/R2 as local FS with VFS cache + Crypt for E2EE).
+
+*File created: 2025-11-25 | Source: Community lists, GitHub, F-Droid, self-hosted communities*
+
