@@ -8,10 +8,32 @@
 
 | Project | Stars | Last Updated | Key Features |
 |---------|-------|--------------|--------------|
+| **afterburnerr/FreeDeepSeekAPI** ⭐ **BEST FOR HEADLESS** | ~1.2k | Recent | **Docker with Chrome + Xvfb built-in**; `POST /admin/refresh-cookies` works on headless servers; auto cookie refresh via cron; admin endpoints; production logging; Python/DrissionPage |
 | **FreeDeepseekAPI-EN** (atharvotech) | ~1.2k | Recent | English fork of ForgetMeAI; OpenAI/Anthropic compatible; connects to Open WebUI, LiteLLM, Claude Code, any OpenAI SDK; session refresh via `npm run auth` on 401/403/PoW |
 | **ds-free-api** (NIyueeE) | ~777 | Recent | OpenAI & Anthropic compatible API proxy for DeepSeek web |
 | **Deepseek-API** (sums001) | ~363 | Recent | Reverse-engineers DeepSeek chat → OpenAI-compatible REST API; advertises V4 & R1 models; requests serialized (PoW lock) — sequential throughput |
 | **deepseek-free-api** (LLM-Red-Team) | ~2.5k | 2023-2024 | Classic proxy; `/v1/chat/completions`; Bearer `<userToken>` auth; solves SHA-GYT PoW; widely referenced |
+
+---
+
+## 🏆 Recommended for Headless Servers: **afterburnerr/FreeDeepSeekAPI**
+
+**Why:** Only fork with **production Docker image** that includes **Chrome + Xvfb + DrissionPage** — enabling fully automated cookie refresh on headless servers via `POST /admin/refresh-cookies` (add to cron).
+
+```bash
+# Quick deploy
+git clone https://github.com/afterburnerr/FreeDeepSeekAPI
+cd FreeDeepSeekAPI
+cp .env.example .env
+# Edit .env: DEEPSEEK_EMAIL, DEEPSEEK_PASSWORD
+docker compose up -d
+# → OpenAI-compatible API at http://localhost:8000/v1
+
+# Auto-refresh (cron)
+*/30 * * * * curl -X POST http://localhost:8000/admin/refresh-cookies
+```
+
+**One-time manual step:** First run may need interactive login if DeepSeek challenges (CAPTCHA/2FA). After that, `refresh-cookies` keeps it alive.
 
 ---
 
@@ -57,6 +79,7 @@ npm run auth -- --token "FRESH_USER_TOKEN"
 
 ## 🔗 Links
 
+- **afterburnerr/FreeDeepSeekAPI (HEADLESS)**: https://github.com/afterburnerr/FreeDeepSeekAPI
 - FreeDeepseekAPI-EN: https://github.com/atharvotech/FreeDeepseekAPI-EN
 - ds-free-api: https://github.com/NIyueeE/ds-free-api
 - Deepseek-API: https://github.com/sums001/Deepseek-API
