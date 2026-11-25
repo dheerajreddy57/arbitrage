@@ -331,6 +331,40 @@
 
 ---
 
+## 🧠 Personal Knowledge Management / Notes (Open Source First)
+
+### 🏠 Self-Hosted / Desktop / Mobile (Lead)
+
+| Tool | License | Sync / Self-Host Options | Mobile (F-Droid) | Key Features | GitHub Stars |
+|------|---------|--------------------------|------------------|--------------|--------------|
+| **Logseq** | AGPL-3.0 | Git, Syncthing, self-hosted sync server (Docker), Logseq Sync (paid) | ✅ Yes (alpha) | Outliner, bidirectional links, daily journals, whiteboard, flashcards, query engine, plugins, PDF annotation | ~45.5k |
+| **Joplin** | MIT | Nextcloud, WebDAV, Dropbox, OneDrive, S3, Joplin Cloud, Joplin Server (self-hosted), E2EE | ✅ Yes | E2EE Markdown, notebooks + tags, OCR, Kanban, Gantt, diagrams, Web Clipper, 100+ plugins, CLI | ~45k |
+| **Trilium Notes** | AGPL-3.0 | Self-hosted sync server (Docker), E2EE sync, 3rd-party hosting (PikaPods) | ❌ No official (TriliumDroid unofficial) | Hierarchical notes, rich text, attributes/relations, scripting, fast search, canvas/Excalidraw, per-note encryption | ~38.9k |
+| **SiYuan** | AGPL-3.0 | Official cloud sync (paid), P2P sync plugin (free, AGPL), Docker deploy, LAN sync | ✅ Yes | Block-based, SQL storage, bidirectional links, P2P sync, high performance, mindmap, AI assistant, Docker | ~47.2k |
+| **AppFlowy** | AGPL-3.0 | Self-hosted (Docker: PostgreSQL, Redis, MinIO, GoTrue), AppFlowy Cloud | ✅ Yes (community) | Notion alternative, block-based, Rust/Flutter, collaborative, offline-first, AI, databases, kanban, calendar | ~78.2k |
+| **Affine** | MIT (CE) | Self-hosted (Docker: SQLite/PostgreSQL), local-first, Affine Cloud | ✅ Yes | Page + edgeless (canvas), blocks + whiteboard, BlockSuite editor, local-first, collaborative, Rust/TypeScript | ~35k |
+| **Obsidian** | Proprietary (free personal) | Official Sync ($4/mo), **free via Syncthing / Git / GitHub**, community plugins | ❌ No (Play Store only) | Local Markdown, graph view, canvas, 1000+ plugins, themes, daily/periodic notes, infinite extensibility | ~50k+ |
+| **Foam** | MIT | Git/GitHub (built-in), any Git remote, VS Code/VSCodium only | N/A (VS Code ext) | VS Code-based, Markdown, graph visualization, wikilinks, backlinks, templates, Git-based version control | ~17.4k |
+| **Dendron** | MIT | Git/GitHub (built-in, per-vault config), publish to web, VS Code/VSCodium only | N/A (VS Code ext) | Hierarchical notes, lookup, schemas, publishing, developer-focused, multi-vault, Git-based sync | ~8k |
+| **Heptabase** | Proprietary (no free tier) | Cloud sync (paid), no self-host option | ❌ No | Visual cards, whiteboard/spatial thinking, journals, bidirectional links, research workflow, PDF highlights, Markdown | Private |
+
+### ☁️ Generous SaaS Free Tiers (Secondary)
+
+| Service | Free Tier | Best For |
+|---------|-----------|----------|
+| **Notion (Free)** | Unlimited blocks/pages, 7-day history, 10 guests | Teams <10, all-in-one workspace, great templates |
+| **Obsidian Sync** | Paid ($4/mo) — but **free via Syncthing/Git** | Zero-cost sync across devices |
+| **Logseq Sync** | Paid — but **free via Syncthing/Git** | Zero-cost sync across devices |
+| **Capacities** | Free tier: 1000 objects, basic features | Object-based PKM, daily notes, calendar view |
+| **Tana** | Free tier (waitlist) — supertags, live search | Supertags, voice memos, daily page, PKM for builders |
+| **RemNote** | Free tier: spaced repetition + outliner, PDF annotation | Flashcards built-in, hierarchical notes, generous free tier |
+
+> **Pro tip:** **Maximum freedom + zero cost:** Obsidian + Syncthing (full control, plugins, no cloud). **Open source purist:** Logseq or Joplin (E2EE, local-first, F-Droid). **Notion-like + self-hosted:** AppFlowy or Affine (blocks + canvas, Docker). **Research-heavy visual:** Heptabase (spatial cards/whiteboard) or SiYuan (block granularity, SQL, P2P). **Developer/IDE-native:** Foam or Dendron (VS Code, Git-based, developer workflow). **Flashcards built-in:** RemNote. **Mobile-first:** Joplin or Logseq (great Android apps on F-Droid).
+
+*File created: 2025-11-25 | Source: GitHub, F-Droid, community lists, project docs*
+
+---
+
 ## 💰 Personal Finance (Open Source First + Generous SaaS)
 
 ### 🏠 Self-Hosted / Desktop / Mobile (Lead)
